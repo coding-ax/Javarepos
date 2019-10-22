@@ -29,7 +29,7 @@ public class int_check {
 		return avg;
 	}
 	public void AXsort() {
-		
+
 		for(int i=0;i<a.length;i++) {
 			
 			for(int j=i;j<a.length;j++) {
@@ -54,12 +54,12 @@ public class int_check {
 	public static void main(String[] avgs) {
 		int a[]= {1,5,4,3,8,7,5,6,4,1};
 		int_check p=new int_check(a);
-		System.out.println("×î´óÖµ:"+p.getMax());
-		System.out.println("×îÐ¡Öµ:"+p.getMin());
-		System.out.println("Æ½¾ùÖµ:"+p.getAvg());
+		System.out.println("æœ€å¤§å€¼Öµ:"+p.getMax());
+		System.out.println("æœ€å°å€¼Öµ:"+p.getMin());
+		System.out.println("å¹³å‡å€¼Öµ:"+p.getAvg());
 		p.travel();
 		p.AXsort();
-		System.out.println("\nÅÅÐòºó£º");
+		System.out.println("\næŽ’åºåŽ");
 		p.travel();
 	}
 }

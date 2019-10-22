@@ -14,7 +14,7 @@ public class trianglePrint {
 	public void Print() {
 		for(int i=0;i<n;i++) {
 			System.out.print("*");
-			for(int j=i;j<n;i++) {
+			for(int j=i;j<n;j++) {
 				System.out.print(" ");
 			}
 			System.out.print("\n");
